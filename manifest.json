@@ -1,16 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Chatwork Style",
-  "version": "2.1",
+  "name": "Chatwork Styling",
+  "version": "2.0",
   "content_scripts": [
     {
       "matches": ["*://www.chatwork.com/*"],
       "js": ["contentScript.js"]
     }
-  ],
-  "permissions": ["tabs", "storage"],
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_title": "Chatwork styling"
-  }
+  ]
 }
